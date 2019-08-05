@@ -39,5 +39,19 @@ displayPosition('Printers and Stationers, Inc.', 'Warehouse Employee', 'Assemble
 
 console.log('');
 
+function displaySkill(name, boolean) {
+  if (boolean == true) {
+    console.log('* BAM: ' + name);
+  } else {
+    console.log('* ' + name);
+  }
+}
+
+displaySkill('Drums', true);
+displaySkill('OnBase Accounting Software', false);
+displaySkill('Microsft Excel', false);
+displaySkill('Nunchucks', true);
+displaySkill('Woodworking', true);
+displaySkill('Voice Impressions', false);
 
 
