@@ -49,7 +49,7 @@ function displaySkill(name, boolean) {
 
 displaySkill('Drums', true);
 displaySkill('OnBase Accounting Software', false);
-displaySkill('Microsft Excel', false);
+displaySkill('Microsoft Excel', false);
 displaySkill('Nunchucks', true);
 displaySkill('Woodworking', true);
 displaySkill('Voice Impressions', false);
