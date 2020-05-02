@@ -1,0 +1,24 @@
+{
+  "name": "Typescript-Console-Resume",
+  "version": "1.0.0",
+  "description": "Simple resume that will appear in the console",
+  "main": "app.js",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harbison0906/Typescript-Console-Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harbison0906/Typescript-Console-Resume/issues"
+  },
+  "homepage": "https://github.com/Harbison0906/Typescript-Console-Resume#readme"
+}
