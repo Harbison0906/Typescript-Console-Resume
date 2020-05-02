@@ -1,16 +1,22 @@
-let resume = {
+interface Resume {
+  Name: string,
+  Career: string,
+  Description: string
+}
+
+let myResume: Resume = {
   Name: 'seth harbison',
   Career: 'Accounting Assistant',
   Description: 'I love music and movie trivia'
 }
 
 console.log(         //list
-  'Name: ' + resume.Name.toUpperCase() + "\n" +
-  'Career: ' + resume.Career + "\n" +
-  'Description: ' + resume.Description
+  'Name: ' + myResume.Name.toUpperCase() + "\n" +
+  'Career: ' + myResume.Career + "\n" +
+  'Description: ' + myResume.Description
 );
 
-let myInterests = ['Mid-century architecture', 'Movies', 'Drums']
+let myInterests: string[] = ['Mid-century architecture', 'Movies', 'Drums']
 console.log('');
 console.log('My Interests:');
 console.log(
@@ -23,7 +29,7 @@ console.log('');
 
 console.log('My Previous Experience:');
 
-function displayPosition(company, title, description) {
+function displayPosition(company: string, title: string, description: string): void {
   console.log(
     '* ' + company + ' | ' + 
     title + ' | ' +
@@ -39,7 +45,7 @@ displayPosition('Printers and Stationers, Inc.', 'Warehouse Employee', 'Assemble
 
 console.log('');
 
-function displaySkill(name, boolean) {
+function displaySkill(name: string, boolean) {
   if (boolean == true) {
     console.log('* BAM: ' + name);
   } else {
@@ -48,10 +54,10 @@ function displaySkill(name, boolean) {
 }
 
 displaySkill('Drums', true);
-displaySkill('OnBase Accounting Software', false);
-displaySkill('Microsoft Excel', false);
-displaySkill('Nunchucks', true);
+displaySkill('OnBase Accounting Software', true);
+displaySkill('Microsoft Excel', true);
+displaySkill('Nunchucks', false);
 displaySkill('Woodworking', true);
-displaySkill('Voice Impressions', false);
+displaySkill('Voice Impressions', true);
 
 
