@@ -6,7 +6,7 @@ interface Resume {
 
 let myResume: Resume = {
   Name: 'seth harbison',
-  Career: 'Accounting Assistant',
+  Career: 'Functional Test Analyst I',
   Description: 'I love music and movie trivia'
 }
 
@@ -36,6 +36,8 @@ function displayPosition(company: string, title: string, description: string): v
     description
   );
 }
+
+displayPosition('Parallon', 'Functional Test Analyst 1', 'Run code tests to ensure medical codes are working correctly when calculating insurance reimbursement for patients');
 
 displayPosition('Lewis Thomason', 'Legal Courier', 'Deliver documents to court houses, clients, other firms; issue/serve subpoenas; Notary Public ');
 
